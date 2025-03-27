@@ -1,10 +1,10 @@
-"""Write a Python program to check the validity of a password given by the user
-11. The Password should satisfy the following criteria:
-1. Contains at least one letter between a and z
-2. Contains at least one number between 0 and 9
-3. Contains at least one letter between A and Z
-4. Contains at least one special character from $, #, @
-Minimum length of password: 6"""
+# Write a Python program to check the validity of a password given by the user
+# The Password should satisfy the following criteria:
+# 1. Contains at least one letter between a and z
+# 2. Contains at least one number between 0 and 9
+# 3. Contains at least one letter between A and Z
+# 4. Contains at least one special character from $, #, @
+# Minimum length of password: 6
 
 s=input("Enter the passsword ")
 hasupper=False
