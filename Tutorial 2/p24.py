@@ -1,4 +1,4 @@
-""" Program to remove all duplicate elements from a list"""
+# Program to remove all duplicate elements from a list
 
 def remove_duplicates(lst):
     return list(set(lst))
