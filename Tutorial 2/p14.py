@@ -1,5 +1,4 @@
-"""Write a python program to compute nCr using a factorial function."""
-
+# Write a python program to compute nCr using a factorial function.
 
 def factorial(n):
     if n == 0 or n == 1:
@@ -15,9 +14,6 @@ def nCr(n, r):
     
     return factorial(n) // (factorial(r) * factorial(n - r))
 
-# Get user input
 n = int(input("Enter value of n: "))
 r = int(input("Enter value of r: "))
-
-# Compute and print nCr
 print(f"nCr ({n}C{r}) = {nCr(n, r)}")
