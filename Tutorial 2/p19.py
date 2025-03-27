@@ -1,4 +1,4 @@
-""" Program to read list of names and sort the list in alphabetical order"""
+# Program to read list of names and sort the list in alphabetical order
 
 n = int(input("Enter the number of names: "))
 
