@@ -5,11 +5,3 @@ def decimal_to_binary(n):
 
 decimal_number = int(input("Enter a decimal number: "))
 print(decimal_to_binary(decimal_number))
-
-
-# 12. Convert binary number into decimal number.
-def binary_to_decimal(b):
-    return int(b, 2)
-
-binary_number = input("Enter a binary number: ")
-print(binary_to_decimal(binary_number))
